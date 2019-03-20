@@ -24,7 +24,7 @@ Use the ExtractIndices Filter to create new point clouds containing the table an
 ### The results after all the steps are as follows:
 
 Voxel Grid Filter
-
+![Voxel Grid Filtered][image_1]
 
 Pass Through Filter
 
