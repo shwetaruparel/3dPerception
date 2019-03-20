@@ -1,6 +1,6 @@
 [//]: # (Image References)
-[image_1]: ./images/Voxel.pcd
-[image_2]: ./images/Passthrough.pcd
+[image_1]: ./images/voxel_downsampled.pcd
+[image_2]: ./images/pass_through_filter.pcd
 [image_3]: ./images/ransac.pcd
 [image_4]: ./images/tabletop.pcd
 [image_5]: ./images/object.pcd
