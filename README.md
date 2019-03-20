@@ -26,7 +26,6 @@ Voxel Grid Filter
 ![Voxel Grid Filtered][image_1]
 
 Pass Through Filter
-
 ![Pass Through Filter][image_2]
 
 Extract Indices for table
