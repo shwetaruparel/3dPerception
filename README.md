@@ -1,9 +1,8 @@
 [//]: # (Image References)
 [image_1]: ./images/voxel_downsampled.pcd
 [image_2]: ./images/pass_through_filter.pcd
-[image_3]: ./images/ransac.pcd
-[image_4]: ./images/extracted_outliers.pcd
-[image_5]: ./images/extracted_inliers.pcd
+[image_3]: ./images/extracted_outliers.pcd
+[image_4]: ./images/extracted_inliers.pcd
 
 # 3dPerception
 Perception and Object Recognition
@@ -28,15 +27,13 @@ Voxel Grid Filter
 
 Pass Through Filter
 
-
-RanSaC Plane fitting to identify the table
-
+![Pass Through Filter][image_2]
 
 Extract Indices for table
-
+![Table from Extract Indices][image_3]
 
 Extract Indices for objects
-
+![Objects from extrect indices][image_4]
 
 
 
