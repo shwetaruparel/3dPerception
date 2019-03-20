@@ -34,5 +34,15 @@ Extract Indices for table
 Extract Indices for objects
 ![Objects from extrect indices][image_4]
 
+### Clustering and Segmentation implemented 
 
+Create publishers and topics to publish the segmented table and tabletop objects as separate point clouds
+
+Apply Euclidean clustering on the table-top objects (after table segmentation is successful)
+
+Create a XYZRGB point cloud such that each cluster obtained from the previous step has its own unique color.
+
+Finally publish colored cluster cloud on a separate topic
+
+### The published topics are available in Rviz
 
