@@ -14,7 +14,7 @@ def pcl_callback(pcl_msg):
     vox = cloud.make_voxel_grid_filter()
 
     # Choose a voxel (also known as leaf) size
-    LEAF_SIZE = 0.2
+    LEAF_SIZE = 0.008
 
     # Set the voxel (or leaf) size  
     vox.set_leaf_size(LEAF_SIZE, LEAF_SIZE, LEAF_SIZE)
@@ -29,8 +29,8 @@ def pcl_callback(pcl_msg):
     # Assign axis and range to the passthrough filter object.   
     filter_axis = 'z'
     passthrough.set_filter_field_name(filter_axis)
-    axis_min = 0.6
-    axis_max = 1.1
+    axis_min = 0.2
+    axis_max = 1.5
     passthrough.set_filter_limits(axis_min, axis_max)
 
     # Finally use the filter function to obtain the resultant point cloud. 
@@ -45,7 +45,7 @@ def pcl_callback(pcl_msg):
     seg.set_method_type(pcl.SAC_RANSAC)
 
     # Max distance for a point to be considered fitting the model
-    max_distance = 0.01
+    max_distance = 0.018
     seg.set_distance_threshold(max_distance)
 
     # Call the segment function to obtain set of inlier indices and model coefficients
