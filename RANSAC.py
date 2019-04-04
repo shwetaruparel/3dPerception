@@ -8,7 +8,7 @@ cloud = pcl.load_XYZRGB('tabletop.pcd')
 vox = cloud.make_voxel_grid_filter()
 
 # Choose a voxel (also known as leaf) size
-LEAF_SIZE = 0.2
+LEAF_SIZE = 0.008
 
 # Set the voxel (or leaf) size  
 vox.set_leaf_size(LEAF_SIZE, LEAF_SIZE, LEAF_SIZE)
@@ -26,8 +26,8 @@ passthrough = cloud_filtered.make_passthrough_filter()
 # Assign axis and range to the passthrough filter object.
 filter_axis = 'z'
 passthrough.set_filter_field_name(filter_axis)
-axis_min = 0.6
-axis_max = 1.1
+axis_min = 0.2
+axis_max = 1.5
 passthrough.set_filter_limits(axis_min, axis_max)
 
 # Finally use the filter function to obtain the resultant point cloud. 
