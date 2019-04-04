@@ -45,7 +45,7 @@ seg.set_method_type(pcl.SAC_RANSAC)
 # Max distance for a point to be considered fitting the model
 # Experiment with different values for max_distance 
 # for segmenting the table
-max_distance = 0.01
+max_distance = 0.018
 seg.set_distance_threshold(max_distance)
 
 # Call the segment function to obtain set of inlier indices and model coefficients
