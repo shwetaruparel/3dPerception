@@ -8,7 +8,7 @@ cloud = pcl.load_XYZRGB('tabletop.pcd')
 vox = cloud.make_voxel_grid_filter()
 
 # Choose a voxel (also known as leaf) size
-LEAF_SIZE = 0.008
+LEAF_SIZE = 0.009
 
 # Set the voxel (or leaf) size  
 vox.set_leaf_size(LEAF_SIZE, LEAF_SIZE, LEAF_SIZE)
@@ -45,7 +45,7 @@ seg.set_method_type(pcl.SAC_RANSAC)
 # Max distance for a point to be considered fitting the model
 # Experiment with different values for max_distance 
 # for segmenting the table
-max_distance = 0.018
+max_distance = 0.015
 seg.set_distance_threshold(max_distance)
 
 # Call the segment function to obtain set of inlier indices and model coefficients
