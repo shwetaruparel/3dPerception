@@ -3,6 +3,9 @@
 [image_2]: ./images/pass_through_filtered.pcd
 [image_3]: ./images/extracted_outliers.pcd
 [image_4]: ./images/extracted_inliers.pcd
+[image_5]: ./images/pcl_table.png
+[image_6]: ./images/pcl_objects.png
+[image_7]: ./images/pcl_cluster.png
 
 # 3dPerception
 Perception and Object Recognition
@@ -48,4 +51,20 @@ Create a XYZRGB point cloud such that each cluster obtained from the previous st
 Finally publish colored cluster cloud on a separate topic
 
 ### The published topics are available in Rviz
+
+Table as Point Cloud
+![Table][image_5]
+
+Objects as Point Cloud
+![Table][image_6]
+
+Cluster as Point Cloud
+![Table][image_7]
+
+### Features extracted and SVM trained. Object recognition implemented.
+
+
+
+
+
 
