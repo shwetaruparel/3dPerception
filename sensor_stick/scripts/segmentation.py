@@ -60,7 +60,7 @@ def pcl_callback(pcl_msg):
     vox = cloud.make_voxel_grid_filter()
 
     # Choose a voxel (also known as leaf) size
-    LEAF_SIZE = 0.009
+    LEAF_SIZE = 0.008
 
     # Set the voxel (or leaf) size  
     vox.set_leaf_size(LEAF_SIZE, LEAF_SIZE, LEAF_SIZE)
@@ -92,7 +92,7 @@ def pcl_callback(pcl_msg):
     seg.set_method_type(pcl.SAC_RANSAC)
 
     # Max distance for a point to be considered fitting the model
-    max_distance = 0.015
+    max_distance = 0.01
     seg.set_distance_threshold(max_distance)
 
     # Call the segment function to obtain set of inlier indices and model coefficients
@@ -113,9 +113,9 @@ def pcl_callback(pcl_msg):
     # as well as minimum and maximum cluster size (in points)
     # NOTE: These are poor choices of clustering parameters
     # Your task is to experiment and find values that work for segmenting objects.
-    ec.set_ClusterTolerance(0.02)
-    ec.set_MinClusterSize(10)
-    ec.set_MaxClusterSize(10000)
+    ec.set_ClusterTolerance(0.01)
+    ec.set_MinClusterSize(100)
+    ec.set_MaxClusterSize(5000)
     # Search the k-d tree for clusters
     ec.set_SearchMethod(tree)
     # Extract indices for each of the discovered clusters
