@@ -28,7 +28,7 @@ Use the ExtractIndices Filter to create new point clouds containing the table an
 
 ### The results after all the steps are as follows using the file Ransac.py in Exercise-1 folder in https://github.com/udacity/RoboND-Perception-Exercises
 
-Run - python Ransac.py and the following files are created.
+***Run - python Ransac.py and the following files are created***
 
 Voxel Grid Filter
 ![Voxel Grid Filtered][image_1]
@@ -51,6 +51,8 @@ Apply Euclidean clustering on the table-top objects (after table segmentation is
 Create a XYZRGB point cloud such that each cluster obtained from the previous step has its own unique color.
 
 Finally publish colored cluster cloud on a separate topic
+
+This can be checked using segmentation.py in sensor_stick/scripts folder 
 
 ### The published topics are available in Rviz
 
