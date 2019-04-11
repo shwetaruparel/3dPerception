@@ -36,6 +36,8 @@ Use the ExtractIndices Filter to create new point clouds containing the table an
 
 ***Run - python Ransac.py and the following files are created***
 
+You can view these files using pcl_viewer command.
+
 Voxel Grid Filter
 ![Voxel Grid Filtered][image_1]
 
