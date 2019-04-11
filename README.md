@@ -8,6 +8,10 @@
 [image_7]: ./images/pcl_cluster.png
 [image_8]: ./images/figure_1_CMWN.png
 [image_9]: ./images/figure_2_NCM.png
+[image_10]: ./images/test_1.png
+[image_11]: ./images/test_2_1.png
+[image_12]: ./images/test_world_3.png
+
 
 # 3dPerception
 Perception and Object Recognition
@@ -126,9 +130,16 @@ Check for output_1.yaml created.
 
 Repeat the same for test2.world , pick_list_1.yaml and test3.world and pick_list_3.yaml in pick_place_project.launch
 
-### The following results are acheived.
+### The following results are acheived for three tabletop setups - 100% object recognised in all of the setups (:-D)
 
+TableTop 1 -test1.world and pick_list_1.yaml
+![tabletop 1][image_10]
 
+TableTop 2 -test2.world and pick_list_2.yaml
+![tabletop 1][image_11]
+
+TableTop 1 -test3.world and pick_list_3.yaml
+![tabletop 1][image_12]
 
 
 
