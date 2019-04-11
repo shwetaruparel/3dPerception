@@ -130,6 +130,8 @@ Check for output_1.yaml created.
 
 Repeat the same for test2.world , pick_list_1.yaml and test3.world and pick_list_3.yaml in pick_place_project.launch
 
+Check for output_1.yaml, output_2.yaml and output_3.yaml 
+
 ### The following results are acheived for three tabletop setups - 100% object recognised in all of the setups (:-D)
 
 TableTop 1 -test1.world and pick_list_1.yaml
