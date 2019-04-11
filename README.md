@@ -75,9 +75,9 @@ Extract colors and shape features from the objects segmented above.Extract a tra
 
 Use the following commands to extract features and then train the SVM to get Normalised Confusion Matrix . Setup everything as mentioned in https://github.com/udacity/RoboND-Perception-Exercises repository for Exercise-3. Modified capture,py/features.py and added object_recognition.py for detecting labels and showing the labels.
 
-  ***roslaunch sensor_stick training.svm
+  ***roslaunch sensor_stick training.launch***
   
-  ***rosrun sensor_stick capture_features.py
+  ***rosrun sensor_stick capture_features.py***
   
  After the features are extracted it will create training_set.sav file. Run the following command to train the SVM and generate Normalised Confusion Matrix
  
