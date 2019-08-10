@@ -13,7 +13,7 @@
 [image_12]: ./images/test_world_3.png
 
 
-# 3dPerception
+# 3dPerception #
 
 ***Perception and Object Recognition. In this project we will use perception , filtering , clustering, segmentation, feature extraction, SVM training and object recognition techniques to identify objects on a table using PR2 robot in a simulated environment. The PR2 robot is outfitted with RGB-D Camera to perceive its surrounding and using techniques mentioned and used PR2 robot will be able to identify the target objects from a so-called "Pick List" in a  particular order. *** 
 
