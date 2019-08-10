@@ -32,7 +32,7 @@ Perform RANSAC plane fitting to identify the table.
 Use the ExtractIndices Filter to create new point clouds containing the table and objects separately.
 
 
-### The results after all the steps are as follows using the file Ransac.py in Exercise-1 folder in https://github.com/udacity/RoboND-Perception-Exercises repository
+### The results after all the steps are as follows (Download Exercise-1 folder in https://github.com/udacity/RoboND-Perception-Exercises repository and copy the Ransac.py file from here )
 
 ***Run - python Ransac.py and the following files are created***
 
